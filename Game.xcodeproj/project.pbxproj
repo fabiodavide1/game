@@ -12,6 +12,7 @@
 		33FA95371EE5600B00FEB15D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33FA95351EE5600B00FEB15D /* Main.storyboard */; };
 		33FA95391EE5600B00FEB15D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33FA95381EE5600B00FEB15D /* Assets.xcassets */; };
 		33FA953C1EE5600B00FEB15D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33FA953A1EE5600B00FEB15D /* LaunchScreen.storyboard */; };
+		33FA95451EE5602300FEB15D /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33FA95441EE5602300FEB15D /* SpriteKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		33FA95381EE5600B00FEB15D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33FA953B1EE5600B00FEB15D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33FA953D1EE5600B00FEB15D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33FA95441EE5602300FEB15D /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33FA95451EE5602300FEB15D /* SpriteKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				33FA95301EE5600B00FEB15D /* Game */,
 				33FA952F1EE5600B00FEB15D /* Products */,
+				33FA95431EE5602300FEB15D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				33FA953D1EE5600B00FEB15D /* Info.plist */,
 			);
 			path = Game;
+			sourceTree = "<group>";
+		};
+		33FA95431EE5602300FEB15D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33FA95441EE5602300FEB15D /* SpriteKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
